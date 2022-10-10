@@ -1,0 +1,16 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    figure {
+        max-height: 185px;
+        overflow: hidden;
+
+    }
+
+    p {
+        padding: 20px 0;
+        font-weight: 700;
+    }
+}

@@ -1,0 +1,50 @@
+footer {
+    background-image: url(../img/footer-bg.jpg);
+    background-size: cover;
+    background-position: center;
+  
+    .main__footer {
+      display: flex;
+      justify-content: space-between;
+  
+  
+      .ul__footer {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        max-height: 370px;
+        gap: 30px;
+        padding-top: 30px;
+  
+        ul {
+          color: white;
+  
+          h2 {
+            font-size: 18px;
+            text-transform: uppercase;
+            padding-bottom: 10px;
+          }
+  
+          li {
+            color: grey;
+            padding-bottom: 10px;
+            font-size: 12px;
+  
+            &:hover {
+              color: white;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+  
+      figure {
+        max-height: 370px;
+        overflow: hidden;
+  
+        img {
+          transform: translateY(-20%);
+        }
+      }
+    }
+  }

@@ -1,0 +1,51 @@
+.main {
+    background-color: #1C1C1C;
+    color: white;
+    // height:285px;
+    font-size: 13px;
+    text-transform: uppercase;
+  
+  
+    .container {
+      padding-top: 50px;
+      position: relative;
+      height: 670px;
+  
+      .button {
+        position: absolute;
+        top: 0;
+        transform: translateY(-50%);
+        font-size: 25px;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding: 10px;
+        color: white;
+        background-color: $blue-dc;
+        cursor: pointer;
+      }
+  
+      .load__button {
+        position: absolute;
+        color: white;
+        background-color: $blue-dc;
+        font-size: 16px;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding: 10px 40px;
+        cursor: pointer;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+  
+      }
+  
+      .cards {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        gap: 30px;
+        padding: 0 20px;
+  
+  
+      }
+    }
+  }

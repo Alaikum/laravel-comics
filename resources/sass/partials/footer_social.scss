@@ -1,0 +1,38 @@
+.social__footer {
+    background-color: #303030;
+  
+  
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  
+      .input__footer {
+        cursor: pointer;
+        text-transform: uppercase;
+        color: white;
+        border: 1px solid $blue-dc ;
+        padding: 15px;
+      }
+  
+      .follow__us {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        height: 110px;
+  
+        h2 {
+          padding: 10px;
+          color: $blue-dc;
+          cursor: pointer;
+        }
+  
+        img {
+          cursor: pointer;
+  
+        }
+      }
+    }
+  
+  }

@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul, ol, menu {
+  list-style: none;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1290px;
+  margin: 0 auto;
+  padding: 0 0.5rem;
+}
+
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1.25rem;
+}
+nav .container figure {
+  max-width: 82px;
+  padding-bottom: 5px;
+}
+nav .container ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  flex-wrap: wrap;
+}
+nav .container ul li {
+  padding: 35px 0;
+}
+nav .container ul li.active, nav .container ul li:hover {
+  color: #0282F9;
+  border-bottom: 5px solid #0282F9;
+  cursor: pointer;
+}
+
+footer {
+  background-image: url(../img/footer-bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+footer .main__footer {
+  display: flex;
+  justify-content: space-between;
+}
+footer .main__footer .ul__footer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-height: 370px;
+  gap: 30px;
+  padding-top: 30px;
+}
+footer .main__footer .ul__footer ul {
+  color: white;
+}
+footer .main__footer .ul__footer ul h2 {
+  font-size: 18px;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+footer .main__footer .ul__footer ul li {
+  color: grey;
+  padding-bottom: 10px;
+  font-size: 12px;
+}
+footer .main__footer .ul__footer ul li:hover {
+  color: white;
+  cursor: pointer;
+}
+footer .main__footer figure {
+  max-height: 370px;
+  overflow: hidden;
+}
+footer .main__footer figure img {
+  transform: translateY(-20%);
+}
+
+.social__footer {
+  background-color: #303030;
+}
+.social__footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.social__footer .container .input__footer {
+  cursor: pointer;
+  text-transform: uppercase;
+  color: white;
+  border: 1px solid #0282F9;
+  padding: 15px;
+}
+.social__footer .container .follow__us {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  height: 110px;
+}
+.social__footer .container .follow__us h2 {
+  padding: 10px;
+  color: #0282F9;
+  cursor: pointer;
+}
+.social__footer .container .follow__us img {
+  cursor: pointer;
+}
+
+.jumbo {
+  background-image: url(../img/jumbotron.jpg);
+  background-size: cover;
+  height: 400px;
+}
+
+.main {
+  background-color: #1C1C1C;
+  color: white;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+.main .container {
+  padding-top: 50px;
+  position: relative;
+  height: 670px;
+}
+.main .container .button {
+  position: absolute;
+  top: 0;
+  transform: translateY(-50%);
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 10px;
+  color: white;
+  background-color: #0282F9;
+  cursor: pointer;
+}
+.main .container .load__button {
+  position: absolute;
+  color: white;
+  background-color: #0282F9;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 10px 40px;
+  cursor: pointer;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.main .container .cards {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 30px;
+  padding: 0 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card figure {
+  max-height: 185px;
+  overflow: hidden;
+}
+.card p {
+  padding: 20px 0;
+  font-weight: 700;
+}
