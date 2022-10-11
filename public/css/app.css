@@ -80,6 +80,7 @@ footer .main__footer .ul__footer ul li {
   color: grey;
   padding-bottom: 10px;
   font-size: 12px;
+  text-transform: capitalize;
 }
 footer .main__footer .ul__footer ul li:hover {
   color: white;
