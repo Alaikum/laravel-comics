@@ -1,6 +1,6 @@
 <footer>
     @php
-        $dcComics = ['Characters', 'Comics', 'Movies', 'TV', 'Games', 'Videos', 'News'];
+        $dcComics = ['characters', 'comics', 'movies', 'tv', 'games', 'videos', 'news'];
         $shop = ['Shop DC', 'Shop DC Collectibles'];
         $dc = ['Terms Of Use', 'Privacy policy (New)', 'Ad Choices', 'Advertising', 'Jobs', 'Subscriptions', 'Talent Workshops', 'CPSC Certificates', 'Ratings', 'Shop Help', 'Contact Us'];
         $sites = ['Dc', 'MAD Magazine', 'DC Kids', 'DC Universe', 'DC Power Visa'];
@@ -12,7 +12,7 @@
                     <h2>Dc comics</h2>
                     @foreach ($dcComics as $el)
                         <li>
-                            <a href="##">
+                            <a href="{{ route($el) }}">
                                 {{ $el }}
                             </a>
                         </li>
