@@ -1,17 +1,8 @@
 @extends('layouts.app')
-@section('metaTitle', 'Dc-Homepage')
+@section('metaTitle', 'Dc-Characters')
 
 
 @section('content')
-    <div class="main">
-
-        <div class="container">
-            <button class="button">current series</button>
-            <button class="load__button">load more</button>
-            <div class="cards">
-                @include('partials.cards')
-           
-            </div>
-        </div>
-    </div>
+ <h1>Dc-Characters</h1>
+   
 @endsection

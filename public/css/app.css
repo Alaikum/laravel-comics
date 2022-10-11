@@ -173,6 +173,41 @@ footer .main__footer figure img {
   padding: 0 20px;
 }
 
+.comic__detail .img__comic {
+  position: absolute;
+}
+.comic__detail .main__comic {
+  display: flex;
+  gap: 10px;
+}
+.comic__detail .main__comic .col__text {
+  flex-basis: 75%;
+}
+.comic__detail .main__comic .col__text h2 {
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+.comic__detail .main__comic .col__text .price__comic {
+  color: white;
+  background-color: green;
+  padding: 15px;
+}
+.comic__detail .main__comic .col__text .description__comic {
+  color: grey;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+}
+.comic__detail .background__t_s {
+  background-color: beige;
+  height: 150px;
+  padding-top: 2rem;
+}
+.comic__detail .background__t_s .talent__spec {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+}
+
 .card {
   display: flex;
   flex-direction: column;
@@ -185,4 +220,14 @@ footer .main__footer figure img {
 .card p {
   padding: 20px 0;
   font-weight: 700;
+}
+
+h1 {
+  min-height: 500px;
+  background-color: #1C1C1C;
+  color: white;
+  text-align: center;
+  font-size: 5rem;
+  text-transform: uppercase;
+  padding: 50px;
 }

@@ -1,11 +1,12 @@
-@foreach($homepage as $el)
-<div class="card">
-    <figure>
-        <img src={{$el['thumb']}} alt="">
-    </figure>
-    <p>{{ $el['series'] }}</p>
-  
-</div>
+@foreach ($comics as $el)
+    <div class="card">
+        <a href="{{route('comic',['id'=>$loop->index])}}">
+
+            <figure>
+                <img src={{ $el['thumb'] }} alt="">
+            </figure>
+            <p>{{ $el['series'] }}</p>
+        </a>
+
+    </div>
 @endforeach
-
-

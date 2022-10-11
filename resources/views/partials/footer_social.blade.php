@@ -30,8 +30,8 @@
             @endphp
 
 @foreach ($socials as $social)
-    {{-- <img src="{{asset({{$social['img']}})}}" alt={{$social['text']}}> --}}
-    <img src={{$social['img']}} alt={{$social['text']}}>
+    <img src="{{asset( 'img/' . $social['img'])}}" alt={{$social['text']}}>
+    {{-- <img src={{$social['img']}} alt={{$social['text']}}> --}}
 @endforeach
         </div>
     </div>
